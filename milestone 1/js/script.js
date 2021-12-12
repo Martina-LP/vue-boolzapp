@@ -89,7 +89,10 @@ const app = new Vue({
         }
       ],
     },
-  ]
-}
+  ],
+
+  contactsList: 0,
+},
 
 });
+
