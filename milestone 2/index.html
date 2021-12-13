@@ -81,7 +81,7 @@
             <i class="fas fa-ellipsis-v"></i>
           </div>
         </div>
-        <div class="textChat">
+        <div class="textChat flex">
           <div :class="message.status" class="message" v-for="message in contacts[contactsList].messages">
             <p>{{message.text}}</p>
             <span>{{message.date}}</span>
